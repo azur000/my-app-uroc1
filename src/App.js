@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+
+/*}import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -20,6 +21,19 @@ function App() {
       </header>
     </div>
   );
+}
+
+export default App;
+*/
+import {Message} from "./components/message/message.js";
+
+
+function App() {
+   return (
+      <div classNane="App">
+      < Message/>
+      </div>
+   );
 }
 
 export default App;
