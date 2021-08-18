@@ -25,7 +25,7 @@ function App() {
 
 export default App;
 */
-import {Message} from "./components/message/message.js";
+/*}import {Message} from "./components/message/message.js";
 
 
 function App() {
@@ -33,6 +33,18 @@ function App() {
       <div classNane="App">
       < Message/>
       </div>
+   );
+} */
+
+import MessageList from "./components/messageList/MessageList.js";
+
+function App() {
+   return (
+      <div classNane="App">
+         <MessageList />
+
+      </div>
+
    );
 }
 
